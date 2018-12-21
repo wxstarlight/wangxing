@@ -249,7 +249,7 @@ int receive(int argc, char *argv[])
 #define MAXLINE 4096  
   
   
-int send(int argc, char *argv[])  
+int send(int argc, char** argv)  
 {  
     int    sockfd, n,rec_len;  
     char    recvline[4096], sendline[4096];  
